@@ -37,8 +37,8 @@ button{
 }
 
 #rightSection img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }  
 button:hover{
@@ -50,22 +50,41 @@ background-color: blue;
    justify-content: space-between;
    align-content:center;
 }
-#sect-two{
+
+.sect-two {
+    background-color: rgb(237, 247, 250);
+    height: 400px;
+    /* padding: 300px 0; */
+}
+
+#left{
+    padding: 30px 10px;
+    width: 45%;
+    /* align-content: center; */
+    background-color: #fff;
+}
+#right{    
+    padding: 30px 10px;
+    width: 45%;
+    /* align-content: center; */
+    background-color: #fff;
+}
+
+.sectTwoSecondChild{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+.man{
     display: flex;
 }
 
-#left,
-#right{
-    padding: 50px 0px;
-    width: 50%;
+.footerParent {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 30px 0;
 }
-#right{    
-    flex-direction: end;
-    justify-content: flex-end;
+.footerChild {
+    margin: 0 10px;
 }
-#left{
-    flex-direction: row-reverse;
-}
-#sect-two{
-    display: flex; 
-}
+
