@@ -88,3 +88,11 @@ background-color: blue;
     margin: 0 10px;
 }
 
+#proof-2{
+   display: flex; 
+}
+
+.lens{
+    display: flex;
+    justify-content: center;
+}
